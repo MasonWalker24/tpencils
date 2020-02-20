@@ -1,11 +1,4 @@
 -=< Porta Proxy >=-
-<!DOCTYPE html>
-
-<html>
-<body>
-<a href="https://titaniumserver.herokuapp.com/index.html"><button><h1>back</h1></button></a>
-</body>
-</html>
 
 
 Allows you to access a given site within other tabs;
