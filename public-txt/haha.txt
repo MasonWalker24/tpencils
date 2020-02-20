@@ -8,6 +8,6 @@ make a bookmark and put the code below as the url then go to any site and press 
 
 javascript:document.body.innerHTML="<style>
 body {
-  background-image: url('img_girl.jpg');
+  background-image: url('file:///home/chronos/u-c0c051c409f0d6db64fa2121ab03ddf77ffef152/MyFiles/Downloads/yeet.png');
 }
 </style>";document.title='get yeeted'
