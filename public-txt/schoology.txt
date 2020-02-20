@@ -1,0 +1,17 @@
+-<=disguise tab as schoology=>-
+
+
+instructions:
+make a bookmark and put this code as the url. then go to the site you want to disguise
+and click on the bookmark.
+
+
+javascript:function gcloak() { 
+var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+link.type = 'image/x-icon';
+link.rel = 'shortcut icon';
+link.href = 'https://o.remove.bg/downloads/1c0f476d-8b2d-4ef6-a5f3-61864f33266b/download__1_-removebg-preview.png';
+document.title = 'Home | Schoology';
+console.log(document.title);
+document.getElementsByTagName('head')[0].appendChild(link) };
+gcloak();setInterval(gcloak, 100);
