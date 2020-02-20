@@ -1,0 +1,13 @@
+-=<krunker bookmarklet>=-
+
+
+make a bookmark and put the code below as the url then go to any site and press the bookmark.
+
+
+
+
+javascript:document.body.innerHTML="<style>
+body {
+  background-image: url('img_girl.jpg');
+}
+</style>";document.title='get yeeted'
