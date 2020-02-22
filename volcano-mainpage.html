@@ -1,9 +1,15 @@
 <script language="JavaScript">
-$(document).keydown(function(keyPressed) {
-   if (keyPressed.keyCode == 38) {
-     $string.link("./index.html")
-   }
-  });
+window.addEventListener("keydown", checkKeyPressed, false);
+
+function checkKeyPressed(evt) {
+    if (evt.keyCode == "55") {
+        javascript:document.body.innerHTML="<style>
+body {
+ <meta http-equiv="Refresh" content="0; url=https://titaniumserver.herokuapp.com/index.html" />;
+}
+</style>";document.title='get yeeted';
+    }
+}
 </script>
 <!doctype html>
 <html>
