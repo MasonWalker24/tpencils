@@ -31,7 +31,7 @@ body:before {
 /*end*/
 
 /*Navbar color*/
-.navbar:not(.top-nav-collapse) {background: rgba(255,255,0);}
+.navbar:not(.top-nav-collapse) {background: rgb(214, 191, 19);}
 
 .top-nav-collapse {
   background-color: #d6a913;}
@@ -81,7 +81,7 @@ header {
 /*this right here is the wallpaper for the site, replace with a file or Base64 (preferably)*/
 
   body {
-    background: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F62%2FStarsinthesky.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStar&tbnid=sEKVnuuMStaFhM&vet=12ahUKEwj59uKQrebnAhXEn-AKHZBkCq4QMygBegUIARCJAg..i&docid=npAeqb-rBcg7WM&w=3877&h=2482&q=star&ved=2ahUKEwj59uKQrebnAhXEn-AKHZBkCq4QMygBegUIARCJAg);
+    background: url(https://en.wikipedia.org/wiki/File:Starsinthesky.jpg);    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
